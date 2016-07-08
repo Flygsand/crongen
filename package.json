@@ -1,0 +1,22 @@
+{
+  "name": "crongen",
+  "version": "0.1.0",
+  "description": "Cron schedule generator",
+  "main": "cli.js",
+  "bin": "./bin/crongen",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wowgroup/gunslinger.git"
+  },
+  "author": "WOW! Group Development <oss@wow-group.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wowgroup/gunslinger/issues"
+  },
+  "homepage": "https://github.com/wowgroup/gunslinger#readme",
+  "dependencies": {
+    "highland": "^2.8.1",
+    "minimist": "^1.2.0",
+    "moment-timezone": "^0.5.4"
+  }
+}
